@@ -15,7 +15,6 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 1em 13em;
     background-color: #1F2937;
 }
 
@@ -28,8 +27,44 @@ body {
 .header-left, .header-right {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 40px;
 }
+
+.container-1 {
+    background-color: #1F2937;
+    padding: 1em 13em;
+
+}
+
+.main {
+    padding: 7em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+
 
 .links {
     display: flex;
